@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat box</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+<div class="main">
+    <div class="home">
+      <h3>User Verified</h3>
+      <h1>Welcome to Message App</h1> 
+      <a href="index.html"><button class="button logout-btn">LogOut</button></a>
+    </div>
+
+    <div class="chatBox">
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="balaji-selector">Balaji</button>
+        <button class="button person-selector-button" id="kumar-selector">Kumar</button>
+    </div>
+      <div class="chat-container">
+        <h2 class="chat-header">Send message to Kumar...</h2>
+  
+        <div class="chat-messages">
+          <!-- <div class="message blue-bg">
+            <div class="message-sender">Balaji</div>
+            <div class="message-text">Hey Kumar, what's up?</div>
+            <div class="message-timestamp">10:30 AM</div>
+          </div>
+          <div class="message dblue-bg">
+            <div class="message-sender">Kumar</div>
+            <div class="message-text">Good. How about you?</div>
+            <div class="message-timestamp">10:35 AM</div>
+          </div> -->
+        </div>
+  
+        <form class="chat-input-form">
+          <input type="text" class="chat-input" placeholder="Type here, Balaji..." />
+          <button type="submit" class="button send-button" >Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Messages</button>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="chat.js"></script>
+</body>
+</html>
